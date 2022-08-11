@@ -4,17 +4,48 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/marx-css/css/marx.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css"/>
     <title>Document</title>
   </head>
-  <body>
-    <h1>Hi Baby!</h1>
-  </body>
+<body>
+  <nav class="navbar">
+    <!-- LOGO -->
+    <div class="logo">Bee's</div>
+    <!-- NAVIGATION MENU -->
+    <ul class="nav-links">
+      <!-- USING CHECKBOX HACK -->
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+      <!-- NAVIGATION MENUS -->
+      <div class="menu">
+        <li><a href="/">Home</a></li>
+        <li><a href="/">About</a></li>
+        <li class="Products">
+          <a href="/">Products</a>
+          <!-- DROPDOWN MENU -->
+          <ul class="dropdown">
+            <li><a href="/">Tinctures </a></li>
+            <li><a href="/">Dry Herbs</a></li>
+            <li><a href="/">Salves</a></li>
+            <li><a href="/">Sugar Wax</a></li>
+            <li><a href="/">Oils</a></li>
+          </ul>
+                  </li>
+        <li><a href="/">Contact</a></li>
+      </div>
+    </ul>
+  </nav>
+  <div id="content">
+  <div class="banner">
+      <h1>Bee's<br> Apothecary<br> Shop<br></h1>
+  </div>
+  </div>
+</body>
 </html>
-
 <!-- 
-
     git add .
     git commit -m "commit message"
     git push
-
  -->
+  
